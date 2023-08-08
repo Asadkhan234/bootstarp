@@ -1,0 +1,57 @@
+body{
+    background-color: gold !important;
+    background: url(image1.jpg);
+    
+}
+
+h2{
+    color: rgb(73, 226, 43) !important;
+    font-weight: bolder !important;
+}
+
+h2:hover{
+    color: red!important;
+    transition: 2s linear !important;
+    transform: scale(1.1);
+}
+
+.form-label{
+    color: limegreen;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.form-label:hover{
+    color: rgb(0, 47, 255)!important;
+    transition: 1s linear !important;
+}
+
+#name{
+   background-color: rgb(255, 0, 0);
+   color: rgb(16, 13, 202) !important;
+   border-color: blue;
+}
+
+#name:hover{
+    color: blueviolet;
+    background-color:rgb(255, 217, 0);
+}
+
+#email{
+    background-color: red;
+    border-color: blue;
+}
+
+#email:hover{
+    background-color: yellow !important;
+    color: blue;
+}
+
+#message{
+    background-color: red;
+    color: blue;
+    border-color: blue;
+}
+#message:hover{
+background-color: yellow;
+}
